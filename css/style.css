@@ -1,0 +1,28 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #0a1222;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 25px;
+  margin-top: 11px;
+  margin-left: 52px;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.boxes {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
