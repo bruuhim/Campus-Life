@@ -4,46 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
     <title>Campus Life</title>
   </head>
   <body>
     <header>
       <div class="logo">
-        <a href="index.html">[YouCode]</a>
+        <a href="index.html" class="logotxt">[YouCode]</a>
       </div>
       <div class="boxes">
         <a class="b1" href="index.html">Accueil</a>
-        <a class="b2" href="campus.html">Campus</a>
-        <span class="b3">Clubs & activités</span>
-        <span class="b4">Conseils aux nouveaux</span>
-        <span class="b5">Contact</span>
+        <a class="b1" href="campus.html">Campus</a>
+        <span class="b1">Clubs & activités</span>
+        <span class="b1">Conseils aux nouveaux</span>
+        <span class="b1">Contact</span>
       </div>
-      <div>
-        <img src="assets/icons/icon-search.svg" alt="Icône de recherche" />
+      <div class="iconsearch">
+        <span>⌕</span>
       </div>
-      <div>
-        <a href="inscription.html">Rejoindre<br />l'aventure</a>
+      <div class="inscr">
+        <a href="inscription.html" class="btn-inscription"
+          >Rejoindre<br />l'aventure</a
+        >
       </div>
     </header>
     <main>
       <section class="hero">
-        <h1>CAMPUS<br />LIFE</h1>
-        <span>≈</span>
-        <h2>Vie étudiante à YouCode</h2>
-        <p>
-          Découvre un environnement d'apprentissage unique, des rencontres
-          inspirantes et une communauté qui code le futur avec toi.
-        </p>
-        <button><a href="campus.html">Découvrir le campus →</a></button>
-        <button>▦ Voir les événements</button>
-        <span>A S Y M</span>
-        <p>Une communauté de +1000 apprenants</p>
-        <span>LEARN<br />BUILD<br />SHARE<br />GROW</span>
-        <span>PLUS<br />QU'UNE ÉCOLE,<br />UNE COMMUNAUTÉ</span>
-        <img
-          src="assets/images/hero-student.png"
-          alt="Une jeune femme sourit devant son ordinateur dans un espace de travail informatique."
-        />
+        <div class="heroimg">
+          <img
+            src="assets/images/hero-student.png"
+            alt="Une jeune femme sourit devant son ordinateur dans un espace de travail informatique."
+          />
+        </div>
+        <div class="herotxt">
+          <h1 class="titlhero">CAMPUS<br /><span class="thb">LIFE</span><small class="thg">≈</small></h1>
+          <h2 class="th2">Vie étudiante à YouCode</h2>
+          <p class="herop">
+            Découvre un environnement d'apprentissage unique, des rencontres
+            inspirantes et une communauté qui code le futur avec toi.
+          </p>
+          <a class="herocam" href="campus.html">Découvrir le campus →</a>
+          <button class="herobott">▦ Voir les événements</button>
+          <span>A S Y M</span>
+          <p>Une communauté de +1000 apprenants</p>
+        </div>
       </section>
       <section class="stats">
         <div>
