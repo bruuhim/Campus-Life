@@ -1,0 +1,69 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #0a1222;
+}
+
+form {
+  max-width: 740px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+input:not([type="radio"]) {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border-color: #e2e1e5;
+}
+
+button {
+  width: 100%;
+  background-color: #5e5bff;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border-color: #5e5bff;
+}
+
+footer {
+  background-color: #101211;
+  padding: 40px;
+  color: #b2bdb3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 80px;
+}
+
+footer h2 {
+  color: #f4f6f0;
+}
+
+footer span {
+  color: #c3f85c;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+footer a {
+  text-decoration: none;
+  color: #b2bdb3;
+  display: block;
+}
+
+footer p {
+  max-width: 450px;
+}
+
+.last {
+  font-family: "IBM Plex Mono", monospace;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #343b36;
+}
